@@ -25,17 +25,17 @@ STUDENT GRADE CALCULATOR (Task 2)
 4. Grade Calculation: Assign grades based on the average percentage achieved.
 
 5. Display Results: Show the total marks, average percentage, and the corresponding grade to the user.
-6. 
 
-ATM INTERFACE (Task 2)
-1. Create a class to represent the ATM machine.
+ONLINE RESERVATION SYSTEM (Task 3)
 
-2. Design the user interface for the ATM.
+1. User and Reservation Classes: Define `User` and `Reservation` classes to store user credentials and reservation details respectively.
   
-3. Implement methods for each option.
- 
-4. Create a class for the user's bank account.
- 
-5. Connect the ATM class with the bank account class.
-  
-7. Display popup alert messages if data validation fails.
+2. Login Functionality: Implement a `login` method to verify user credentials stored in a `HashMap`.
+
+3. Main Menu: Display a menu with options for making a reservation, canceling a reservation, and exiting the system.
+
+4. Reservation System: Prompt users for reservation details and store them in a `HashMap` with the PNR number as the key.
+
+5. Cancellation System: Prompt users for their PNR number, display the associated reservation, and confirm cancellation if requested.
+
+6. User Feedback: Provide clear and informative messages for successful login, reservation creation, cancellation, and handle invalid input gracefully.
